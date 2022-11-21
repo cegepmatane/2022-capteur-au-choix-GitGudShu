@@ -16,7 +16,10 @@ Un stepper motor tourne dans le sens horaire de manière continue et une led rou
 
 # 3. Code
 
-```
+Il faudra include la librairie ***Stepper.h***
+
+```cpp
+
 #include <Stepper.h>
 
 #define echoPin 2 // attach pin D2 Arduino to pin Echo of HC-SR04
@@ -72,13 +75,13 @@ void loop() {
 
 # 4. Diagrammes fritzing
 
-*** Les 2 nouveaux composants ont été séparer pour plus de clareté, seuls l'arduino UNO et le circuit pour les LED sont en communs***
+Les 2 nouveaux composants ont été séparer pour plus de clareté, ***seuls l'arduino UNO et le circuit pour les LED sont en communs.***
 
 ## Stepper motor
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/cegepmatane/2022-capteur-au-choix-GitGudShu/blob/main/stepper.jpg)
 
 ## Capteur ultrasonique
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/cegepmatane/2022-capteur-au-choix-GitGudShu/blob/main/ultrasonic.jpg)
 
 # 5. Sources
 
