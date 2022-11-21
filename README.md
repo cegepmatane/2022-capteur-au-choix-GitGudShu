@@ -75,7 +75,7 @@ void loop() {
 
 # 4. Diagrammes fritzing
 
-Les 2 nouveaux composants ont été séparer pour plus de clareté, ***seuls l'arduino UNO et le circuit pour les LED sont en communs.***
+Les 2 nouveaux composants ont été séparés pour plus de clareté, ***seuls l'arduino UNO et le circuit pour les LED sont en communs.***
 
 ## Stepper motor
 ![alt text](https://github.com/cegepmatane/2022-capteur-au-choix-GitGudShu/blob/main/stepper.jpg)
