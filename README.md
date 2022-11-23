@@ -64,11 +64,11 @@ void loop() {
   if(distance < 10){
     digitalWrite(greenpin, HIGH);
     digitalWrite(redpin, LOW);
-    //myStepper.step(stepsPerRevolution);
+    myStepper.step(stepsPerRevolution);
   }else{
     digitalWrite(greenpin, LOW);
     digitalWrite(redpin, HIGH);
-    //myStepper.step(-stepsPerRevolution);
+    myStepper.step(-stepsPerRevolution);
   }
 }
 ```
